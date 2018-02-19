@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Byke Station</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.19</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb138723893391410</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>FacebookAppID</key>
+	<string>138723893391410</string>
+	<key>FacebookDisplayName</key>
+	<string>Byke Station</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationUsageDescription</key>
+	<string>Esta aplicação requer os serviços de localização para funcionar</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Esta aplicação requer os serviços de localização para funcionar</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SF-UI-Display-Black</string>
+		<string>SF-UI-Display-Bold</string>
+		<string>SF-UI-Display-Heavy</string>
+		<string>SF-UI-Display-Light</string>
+		<string>SF-UI-Display-Medium</string>
+		<string>SF-UI-Display-Regular</string>
+		<string>SF-UI-Display-Semibold</string>
+		<string>SF-UI-Display-Thin</string>
+		<string>SF-UI-Display-Ultralight</string>
+		<string>SF-UI-Text-Bold</string>
+		<string>SF-UI-Text-BoldItalic</string>
+		<string>SF-UI-Text-Heavy</string>
+		<string>SF-UI-Text-HeavyItalic</string>
+		<string>SF-UI-Text-Light</string>
+		<string>SF-UI-Text-LightItalic</string>
+		<string>SF-UI-Text-Medium</string>
+		<string>SF-UI-Text-MediumItalic</string>
+		<string>SF-UI-Text-Regular</string>
+		<string>SF-UI-Text-RegularItalic</string>
+		<string>SF-UI-Text-Semibold</string>
+		<string>SF-UI-Text-SemiboldItalic</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

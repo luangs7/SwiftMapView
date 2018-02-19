@@ -1,0 +1,6 @@
+framework module Pods_bykestation {
+  umbrella header "Pods-bykestation-umbrella.h"
+
+  export *
+  module * { export * }
+}
