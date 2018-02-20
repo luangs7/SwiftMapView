@@ -45,4 +45,16 @@ class ItemTableViewCell: UITableViewCell {
         }
     }
     
+    override func layoutSubviews() {
+//        super.layoutSubviews()
+//        self.layer.cornerRadius = 5
+//        self.shadowView.layer.cornerRadius = 5
+//        let shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: 5)
+//        self.shadowView.layer.masksToBounds = false
+//        self.shadowView.layer.shadowColor = UIColor.red.cgColor
+//        self.shadowView.layer.shadowOffset = CGSize(width: 0.5, height: 1)
+//        self.shadowView.layer.shadowOpacity = 0.25
+//        self.shadowView.layer.shadowPath = shadowPath.cgPath
+    }
+    
 }

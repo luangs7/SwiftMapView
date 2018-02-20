@@ -26,9 +26,34 @@
                 </mapView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WWT-5c-UF3">
                     <rect key="frame" x="16" y="466" width="288" height="86"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="t0I-4A-6bU">
+                            <rect key="frame" x="16" y="23" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="O4k-7M-emm"/>
+                                <constraint firstAttribute="height" constant="40" id="ba7-4B-SEV"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecione uma máquina para ver mais detalhes" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PwI-83-WgR">
+                            <rect key="frame" x="64" y="27" width="216" height="33.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" red="0.1450980392" green="0.1450980392" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
+                        <constraint firstItem="t0I-4A-6bU" firstAttribute="top" secondItem="WWT-5c-UF3" secondAttribute="top" constant="23" id="4tU-33-h6v"/>
+                        <constraint firstAttribute="bottom" secondItem="t0I-4A-6bU" secondAttribute="bottom" constant="23" id="86I-Ac-TgW"/>
+                        <constraint firstAttribute="trailing" secondItem="PwI-83-WgR" secondAttribute="trailing" constant="8" id="DGO-ZH-MLT"/>
+                        <constraint firstItem="PwI-83-WgR" firstAttribute="centerY" secondItem="WWT-5c-UF3" secondAttribute="centerY" id="ETm-es-WFF"/>
+                        <constraint firstItem="t0I-4A-6bU" firstAttribute="top" secondItem="WWT-5c-UF3" secondAttribute="top" constant="23" id="RXT-cl-J40"/>
+                        <constraint firstItem="t0I-4A-6bU" firstAttribute="leading" secondItem="WWT-5c-UF3" secondAttribute="leading" constant="16" id="Y8r-Ra-J2h"/>
                         <constraint firstAttribute="height" constant="86" id="fqb-51-DZa"/>
+                        <constraint firstItem="t0I-4A-6bU" firstAttribute="top" secondItem="WWT-5c-UF3" secondAttribute="top" constant="23" id="hBZ-aW-gXR"/>
+                        <constraint firstItem="PwI-83-WgR" firstAttribute="leading" secondItem="t0I-4A-6bU" secondAttribute="trailing" constant="8" id="lvR-fd-hfo"/>
+                        <constraint firstAttribute="bottom" secondItem="t0I-4A-6bU" secondAttribute="bottom" constant="23" id="spq-P7-fPC"/>
+                        <constraint firstAttribute="bottom" secondItem="t0I-4A-6bU" secondAttribute="bottom" constant="23" id="tkr-RZ-RT2"/>
                     </constraints>
                 </view>
             </subviews>
@@ -42,7 +67,10 @@
                 <constraint firstAttribute="bottom" secondItem="RE5-Fj-XbZ" secondAttribute="bottom" id="trY-Xy-tTl"/>
                 <constraint firstAttribute="trailing" secondItem="RE5-Fj-XbZ" secondAttribute="trailing" id="uAs-Dh-Oix"/>
             </constraints>
-            <point key="canvasLocation" x="33.5" y="113.5"/>
+            <point key="canvasLocation" x="33" y="113"/>
         </view>
     </objects>
+    <resources>
+        <image name="arrow" width="30" height="30"/>
+    </resources>
 </document>
