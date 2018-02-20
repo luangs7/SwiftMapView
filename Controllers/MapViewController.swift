@@ -213,8 +213,8 @@ class MapViewController: BaseViewController {
             
                 selectedPinAnnotation = annotation
                 
-//                self.presentModalBottom(viewController: MachineBottomViewController(), machine: annotation.machine!)
-                self.openBottomInfo(machine: annotation.machine!)
+                self.presentModalBottom(viewController: MachineBottomViewController(), machine: annotation.machine!)
+//                self.openBottomInfo(machine: annotation.machine!)
                 
                 var center = annotation.coordinate;
                 center.latitude -= self.mapView.region.span.latitudeDelta / 8

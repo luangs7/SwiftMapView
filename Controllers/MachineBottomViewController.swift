@@ -66,6 +66,7 @@ class MachineBottomViewController: BaseViewController {
     
     func showItens(_ sender:UITapGestureRecognizer){
         let vc = MachineItensViewController()
+        vc.machine = self.machine
         self.pushViewController(viewController: vc)
     }
     

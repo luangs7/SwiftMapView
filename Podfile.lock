@@ -10,18 +10,23 @@ PODS:
     - Bolts (~> 1.7)
   - FBSDKLoginKit (4.27.1):
     - FBSDKCoreKit
+  - SDWebImage (4.2.1):
+    - SDWebImage/Core (= 4.2.1)
+  - SDWebImage/Core (4.2.1)
 
 DEPENDENCIES:
   - Alamofire (= 4.3.0)
   - FBSDKCoreKit (~> 4.26)
   - FBSDKLoginKit (~> 4.26)
+  - SDWebImage
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   FBSDKCoreKit: 03365dad5d790249196ffad8be4f6d8a2d98f932
   FBSDKLoginKit: 66ff53b73cffd967ab773e32fac39e90a60e6d46
+  SDWebImage: 1fa4c9edf525b744f002db89f3f5a38b3cd4c541
 
-PODFILE CHECKSUM: 88b524c8034f5d0c9e200abafddce375e67dc409
+PODFILE CHECKSUM: fcb177a9aab3b0c8f4b3004b629a60f4f74f5b86
 
 COCOAPODS: 1.3.1

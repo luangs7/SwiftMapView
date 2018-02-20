@@ -144,7 +144,7 @@ extension LibBaseViewController {
         let navigationController = UINavigationController(rootViewController: viewController)
         navigationController.modalPresentationStyle = .custom
         navigationController.navigationBar.isHidden = false
-//        viewController.view.setNeedsLayout()
+        viewController.view.setNeedsLayout()
         
 
         
