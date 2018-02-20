@@ -2,7 +2,7 @@
 //  LibBaseViewController.swift
 //  Farmula-iOS
 //
-//  Created by Vinicius Gibran on 24/01/17.
+//  Created by Luan Silva on 24/01/17.
 //  Copyright © 2017 55Apps. All rights reserved.
 //
 
@@ -135,6 +135,18 @@ extension LibBaseViewController {
         if useCloseButton! {
             NavBarUtils.setLeftBarCustomButton(buttonItem: NavBarButtonItem(withType: .navCloseWhite), withTarget: viewController)
         }
+        
+        self.navigationController?.present(navigationController, animated: true, completion: nil)
+    }
+    
+    internal func presentModalBottom(viewController: MachineBottomViewController, machine: Machine?) {
+        viewController.machine = machine
+        let navigationController = UINavigationController(rootViewController: viewController)
+        navigationController.modalPresentationStyle = .custom
+        navigationController.navigationBar.isHidden = false
+//        viewController.view.setNeedsLayout()
+        
+
         
         self.navigationController?.present(navigationController, animated: true, completion: nil)
     }

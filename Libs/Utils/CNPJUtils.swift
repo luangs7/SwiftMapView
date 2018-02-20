@@ -2,7 +2,7 @@
 //  CNPJUtils.swift
 //  ClickServicesApp
 //
-//  Created by Vinicius Gibran Gehlen Bornholdt on 18/01/18.
+//  Created by Luan Silva Gehlen Bornholdt on 18/01/18.
 //  Copyright © 2018 squarebits. All rights reserved.
 //
 

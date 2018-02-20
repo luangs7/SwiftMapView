@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ClickSrvicesApp
 //
-//  Created by Vinicius Gibran on 07/11/17.
+//  Created by Luan Silva on 07/11/17.
 //  Copyright © 2017 squarebits. All rights reserved.
 //
 

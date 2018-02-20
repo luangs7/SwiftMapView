@@ -171,4 +171,7 @@ class BaseRequest {
         alamofireManager = Alamofire.SessionManager(configuration: configuration)
         return alamofireManager
     }
+    
+    
+    
 }

@@ -2,7 +2,7 @@
 //  FacebookUtils.swift
 //  Farmula-iOS
 //
-//  Created by Vinicius Gibran on 14/03/17.
+//  Created by Luan Silva on 14/03/17.
 //  Copyright © 2017 55Apps. All rights reserved.
 //
 

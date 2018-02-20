@@ -2,7 +2,7 @@
 //  UserDefault.swift
 //  Farmula-iOS
 //
-//  Created by Vinicius Gibran on 23/03/17.
+//  Created by Luan Silva on 23/03/17.
 //  Copyright © 2017 55Apps. All rights reserved.
 //
 //  Thanks to Livetouch - iOSLib 2017

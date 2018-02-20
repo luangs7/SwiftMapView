@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0ECF7A4E868E3BEF59CEE5A0D58DB8A07F5C683E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D942DFB73B455587CB96ED23B70E0B26690D43C5" : 9223372036854775807,
+    "0ECF7A4E868E3BEF59CEE5A0D58DB8A07F5C683E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "47C65028-22F0-49AD-A53D-1FB59FD6C8F8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D942DFB73B455587CB96ED23B70E0B26690D43C5" : "",
+    "0ECF7A4E868E3BEF59CEE5A0D58DB8A07F5C683E" : "bykestation\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "bykestation",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "bykestation.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/luangs7\/SwiftMapView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0ECF7A4E868E3BEF59CEE5A0D58DB8A07F5C683E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/sqbits\/bikestation.ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D942DFB73B455587CB96ED23B70E0B26690D43C5"
+    }
+  ]
+}

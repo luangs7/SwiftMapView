@@ -2,7 +2,7 @@
 //  CPFUtils.swift
 //  fex-ios
 //
-//  Updated by Vinicius Gibran on 13/07/17.
+//  Updated by Luan Silva on 13/07/17.
 //  Thanks to Livetouch-Mini01 on 21/06/2016.
 //
 

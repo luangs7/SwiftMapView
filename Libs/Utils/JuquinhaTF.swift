@@ -2,7 +2,7 @@
 //  JuquinhaTF.swift
 //  ClickServicesApp
 //
-//  Created by Vinicius Gibran on 30/11/17.
+//  Created by Luan Silva on 30/11/17.
 //  Copyright © 2017 squarebits. All rights reserved.
 //
 

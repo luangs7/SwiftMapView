@@ -2,7 +2,7 @@
 //  Profile.swift
 //  ClickServicesApp
 //
-//  Created by Vinicius Gibran on 24/12/17.
+//  Created by Luan Silva on 24/12/17.
 //  Copyright © 2017 squarebits. All rights reserved.
 //
 

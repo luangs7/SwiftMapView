@@ -14,11 +14,12 @@ class MapViewController: BaseViewController {
     @IBOutlet weak var infoView: UIView!
     @IBOutlet weak var mapView: MKMapView!
     
+    
     //MARK: Variables
+    let blurView = UIView()
     var regionRadius: Double = 1500.0 // distance in meeters
     var selectedPinAnnotation: PinAnnotation?
     var pinSelected = false
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -148,7 +149,7 @@ class MapViewController: BaseViewController {
         self.mapView.mapType = .standard;
     }
     internal func centerMapOnLocation(_ location: CLLocation) {
-        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius * 3.0, regionRadius * 3.0)
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius * 5.0, regionRadius * 5.0)
         mapView.setRegion(coordinateRegion, animated: true)
     }
     
@@ -159,18 +160,20 @@ class MapViewController: BaseViewController {
         let vc = MachineBottomViewController()
         vc.modalPresentationStyle = .custom
         vc.machine = machine
-        present(vc, animated: true, completion: nil)
+        self.navigationController?.present(vc, animated: true)
     }
 
     
     
     //MARK: Fetch Data
     private func fetchMapData(completion: @escaping () -> ()) {
+        self.addBlur(blurView: self.blurView)
         if session.userLocation != nil {
             MachineRepository.getMachines(completion: { (success) in
                 if !success {
                     self.alert(withMessage: "Não foram encontrados novos resultados!")
                 }
+                self.removeBlur(blurView: self.blurView)
                 completion()
             })
         }
@@ -210,7 +213,8 @@ class MapViewController: BaseViewController {
             
                 selectedPinAnnotation = annotation
                 
-                openBottomInfo(machine: annotation.machine)
+//                self.presentModalBottom(viewController: MachineBottomViewController(), machine: annotation.machine!)
+                self.openBottomInfo(machine: annotation.machine!)
                 
                 var center = annotation.coordinate;
                 center.latitude -= self.mapView.region.span.latitudeDelta / 8

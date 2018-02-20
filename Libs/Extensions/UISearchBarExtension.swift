@@ -1,7 +1,7 @@
 //
 //  UISearchBarExtension.swift
 //
-//  Created by Vinicius Gibran on 06/07/17.
+//  Created by Luan Silva on 06/07/17.
 //  Copyright © 2017. All rights reserved.
 //
 // Thanks to Jan

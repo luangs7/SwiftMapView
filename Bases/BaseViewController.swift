@@ -2,7 +2,7 @@
 //  BaseViewController.swift
 //  ClickServicesApp
 //
-//  Created by Vinicius Gibran on 29/11/17.
+//  Created by Luan Silva on 29/11/17.
 //  Copyright © 2017 squarebits. All rights reserved.
 //
 
@@ -80,6 +80,7 @@ extension BaseViewController {
 
 //MARK: Getters
 extension BaseViewController {
+
     func textField(_ textFieldNamed: String) -> UITextField! {
         if let topVC = navigationController?.viewControllers.last {
             let allTextFields_ = allTextFields(fromView: topVC.view)
@@ -114,4 +115,31 @@ extension BaseViewController {
                 return allTextFields(fromView: view)
             }}.flatMap({$0})
     }
+    
+    func addBlur(blurView: UIView){
+        
+        let myActivityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.whiteLarge)
+        myActivityIndicator.startAnimating()
+        
+        blurView.frame = UIScreen.main.bounds
+        blurView.backgroundColor = UIColor(white: 0, alpha: 0.5)
+        blurView.layer.zPosition = CGFloat(MAXFLOAT)
+        myActivityIndicator.center = blurView.center
+        blurView.addSubview(myActivityIndicator)
+        UIApplication.shared.beginIgnoringInteractionEvents()
+        
+        view.addSubview(blurView)
+    }
+    
+    
+    func removeBlur(blurView: UIView) {
+        if self.view.subviews.contains(blurView) {
+            if UIApplication.shared.isIgnoringInteractionEvents {
+                UIApplication.shared.endIgnoringInteractionEvents()
+            }
+            blurView.removeFromSuperview()
+        }
+    }
+    
+
 }

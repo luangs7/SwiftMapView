@@ -2,7 +2,7 @@
 //  BaseAppDelegate.swift
 //  fex-ios
 //
-//  Created by Vinicius Gibran on 23/06/17.
+//  Created by Luan Silva on 23/06/17.
 //  Copyright © 2017 fexsaude. All rights reserved.
 //
 

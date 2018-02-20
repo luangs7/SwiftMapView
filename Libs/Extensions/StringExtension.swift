@@ -2,7 +2,7 @@
 //  StringExtension.swift
 //
 //  Created by Livetouch
-//  Updated by Vinicius Gibran
+//  Updated by Luan Silva
 //
 
 import UIKit

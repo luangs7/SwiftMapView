@@ -2,7 +2,7 @@
 //  NetworkUtils.swift
 //  Farmula-iOS
 //
-//  Created by Vinicius Gibran on 27/04/17.
+//  Created by Luan Silva on 27/04/17.
 //  From Livetouch
 
 import UIKit

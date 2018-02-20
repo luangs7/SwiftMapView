@@ -10,6 +10,13 @@ import UIKit
 
 class MachineBottomViewController: BaseViewController {
 
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var address: UILabel!
+    @IBOutlet weak var route: UIView!
+    @IBOutlet weak var itens: UIView!
+    @IBOutlet weak var rating: UILabel!
+    
+    
     var machine:Machine? = nil
     
     lazy var backdropView: UIView = {
@@ -19,7 +26,7 @@ class MachineBottomViewController: BaseViewController {
     }()
     
     var menuView = UIView()
-    let menuHeight = UIScreen.main.bounds.height / 2
+    let menuHeight = UIScreen.main.bounds.height / 3
     var isPresenting = false
     
     init() {
@@ -50,11 +57,16 @@ class MachineBottomViewController: BaseViewController {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(MachineBottomViewController.handleTap(_:)))
         backdropView.addGestureRecognizer(tapGesture)
         
-        
-//        label.minimumScaleFactor = 0.1    //you need
-//        label.adjustsFontSizeToFitWidth = true
-//        label.lineBreakMode = .byClipping
-//        label.numberOfLines = 0
+        self.name.text = self.machine?.loc_name
+        self.address.text = self.machine?.loc_street
+        let gestureRec = UITapGestureRecognizer(target: self, action:  #selector (self.showItens (_:)))
+        self.itens.addGestureRecognizer(gestureRec)
+
+    }
+    
+    func showItens(_ sender:UITapGestureRecognizer){
+        let vc = MachineItensViewController()
+        self.pushViewController(viewController: vc)
     }
     
     func handleTap(_ sender: UITapGestureRecognizer) {
@@ -62,7 +74,7 @@ class MachineBottomViewController: BaseViewController {
     }
     
     func instanceFromNib() -> UIView {
-        return UINib(nibName: "BottomView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! UIView
+        return UINib(nibName: "BottomView", bundle: nil).instantiate(withOwner: self, options: nil)[0] as! UIView
     }
 }
 

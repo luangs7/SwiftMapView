@@ -2,7 +2,7 @@
 //  Professional.swift
 //  
 //
-//  Created by Vinicius Gibran on 10/12/17.
+//  Created by Luan Silva on 10/12/17.
 //
 //
 

@@ -2,7 +2,7 @@
 //  UIColorExtension.swift
 //  Farmula-iOS
 //
-//  Created by Vinicius Gibran on 19/01/17.
+//  Created by Luan Silva on 19/01/17.
 //  Copyright © 2017 55Apps. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  NSObjectExtension.swift
 //
 //  Created by Livetouch
-//  Updated by Vinicius Gibran
+//  Updated by Luan Silva
 //
 
 import Foundation

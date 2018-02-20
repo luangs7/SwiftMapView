@@ -2,7 +2,7 @@
 //  UITextFieldExtension.swift
 //  Farmula-iOS
 //
-//  Created by Vinicius Gibran on 20/03/17.
+//  Created by Luan Silva on 20/03/17.
 //  Copyright © 2017 55Apps. All rights reserved.
 //
 

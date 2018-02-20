@@ -2,7 +2,7 @@
 //  ClickRepository.swift
 //  ClickServicesApp
 //
-//  Created by Vinicius Gibran Gehlen Bornholdt on 15/01/18.
+//  Created by Luan Silva Gehlen Bornholdt on 15/01/18.
 //  Copyright © 2018 squarebits. All rights reserved.
 //
 
@@ -11,6 +11,7 @@ import UIKit
 class MachineRepository: BaseRequest {
 
     static func getMachines(completion: @escaping onSuccess) {
+        
         endPoint = "/locations"
         doDefaultRequestWith(requestType: .get, completionOnSingleResult: { (_) in
             
