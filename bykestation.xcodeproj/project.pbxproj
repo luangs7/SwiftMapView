@@ -154,6 +154,8 @@
 		0F404076203C8F0400CDD909 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F404074203C8F0400CDD909 /* ItemTableViewCell.swift */; };
 		0F404077203C8F0400CDD909 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F404075203C8F0400CDD909 /* ItemTableViewCell.xib */; };
 		0F404079203C93F600CDD909 /* MachineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F404078203C93F600CDD909 /* MachineItem.swift */; };
+		0FA82603203CBA1900A74E31 /* MachineDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA82601203CBA1900A74E31 /* MachineDetailsViewController.swift */; };
+		0FA82604203CBA1900A74E31 /* MachineDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FA82602203CBA1900A74E31 /* MachineDetailsViewController.xib */; };
 		B752A18C7AF53D9BD7D3606F /* Pods_bykestation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5149C1632BA8EA9F4D4DFC41 /* Pods_bykestation.framework */; };
 /* End PBXBuildFile section */
 
@@ -309,6 +311,8 @@
 		0F404074203C8F0400CDD909 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		0F404075203C8F0400CDD909 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
 		0F404078203C93F600CDD909 /* MachineItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineItem.swift; sourceTree = "<group>"; };
+		0FA82601203CBA1900A74E31 /* MachineDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineDetailsViewController.swift; sourceTree = "<group>"; };
+		0FA82602203CBA1900A74E31 /* MachineDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MachineDetailsViewController.xib; sourceTree = "<group>"; };
 		5149C1632BA8EA9F4D4DFC41 /* Pods_bykestation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bykestation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		683D64F917D7C3756EEEB712 /* Pods-bykestation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bykestation.release.xcconfig"; path = "Pods/Target Support Files/Pods-bykestation/Pods-bykestation.release.xcconfig"; sourceTree = "<group>"; };
 		978F51C50FB67AF75C0F85B4 /* Pods-bykestation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bykestation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bykestation/Pods-bykestation.debug.xcconfig"; sourceTree = "<group>"; };
@@ -364,6 +368,7 @@
 		0F289789202A0A6D003005F0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0FA82600203CB8DC00A74E31 /* MachineDetailsVC */,
 				0F40406E203C6CE800CDD909 /* MachineVC */,
 				0F404060203B504E00CDD909 /* Request */,
 				0F40405F203B472000CDD909 /* MapVC */,
@@ -701,6 +706,15 @@
 			name = Cell;
 			sourceTree = "<group>";
 		};
+		0FA82600203CB8DC00A74E31 /* MachineDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				0FA82601203CBA1900A74E31 /* MachineDetailsViewController.swift */,
+				0FA82602203CBA1900A74E31 /* MachineDetailsViewController.xib */,
+			);
+			name = MachineDetailsVC;
+			sourceTree = "<group>";
+		};
 		1D8BFC9CF5D1FB4EA946C6F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -782,6 +796,7 @@
 			files = (
 				0F28993A202A0A6D003005F0 /* SF-UI-Text-Semibold.otf in Resources */,
 				0F289930202A0A6D003005F0 /* SF-UI-Text-Bold.otf in Resources */,
+				0FA82604203CBA1900A74E31 /* MachineDetailsViewController.xib in Resources */,
 				0F289926202A0A6D003005F0 /* License Agreement for SF UI Font.pdf in Resources */,
 				0F404054203B3B3700CDD909 /* aaaaa.xib in Resources */,
 				0F289938202A0A6D003005F0 /* SF-UI-Text-Regular.otf in Resources */,
@@ -845,6 +860,8 @@
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -853,6 +870,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -937,6 +956,7 @@
 				0F2898E7202A0A6D003005F0 /* DateTransform.swift in Sources */,
 				0F2898DF202A0A6D003005F0 /* RequestModifier.swift in Sources */,
 				0F289903202A0A6D003005F0 /* FileUtils.swift in Sources */,
+				0FA82603203CBA1900A74E31 /* MachineDetailsViewController.swift in Sources */,
 				0F2898B9202A0A6D003005F0 /* UIApplicationExtension.swift in Sources */,
 				0F28990C202A0A6D003005F0 /* StatusBarUtils.swift in Sources */,
 				0F2898FB202A0A6D003005F0 /* AlertUtils.swift in Sources */,

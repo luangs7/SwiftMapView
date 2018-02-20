@@ -44,7 +44,7 @@ class MachineItensViewController: BaseViewController {
         
         self.nameMachine.text = machine?.loc_name
         self.addressMachine.text = machine?.loc_street
-        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
+//        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
 
         setupTableView()
         mapView.delegate = self

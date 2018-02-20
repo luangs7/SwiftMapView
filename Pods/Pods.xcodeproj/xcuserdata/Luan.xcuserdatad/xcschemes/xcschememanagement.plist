@@ -24,6 +24,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ImageSlideshow-ImageSlideshow.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ImageSlideshow.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-bykestation.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,17 +52,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0993B25D5CC1F51EDB8CF13867CCC3F5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>44CAD6CE523055ED339E87154473A254</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>4BCEECF059C8FC6835F7A5E97F28F5B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52DBFB36AC9F525C68B5C650208D84C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A617B44C1AC9D6E5A716E2016C1F0256</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B212DBB4157F50DD7D295023C355C9C0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +92,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C15CC2B78F6E7786E31A68DA0EA05209</key>
+		<key>DC057848DB0A9339AD6BF07CBFD1ABC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

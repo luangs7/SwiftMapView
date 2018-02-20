@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '52DBFB36AC9F525C68B5C650208D84C8'
-               BlueprintName = 'SDWebImage'
+               BlueprintIdentifier = 'B212DBB4157F50DD7D295023C355C9C0'
+               BlueprintName = 'ImageSlideshow-ImageSlideshow'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SDWebImage.framework'>
+               BuildableName = 'ImageSlideshow.bundle'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
