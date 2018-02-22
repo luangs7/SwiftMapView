@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MapKit
 
 class MachineBottomViewController: BaseViewController {
 
@@ -48,11 +49,8 @@ class MachineBottomViewController: BaseViewController {
         view.addSubview(menuView)
         
         //        menuView.backgroundColor = .red
-        menuView.translatesAutoresizingMaskIntoConstraints = false
-        menuView.heightAnchor.constraint(equalToConstant: menuHeight).isActive = true
-        menuView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-        menuView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        menuView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        
+        updateMenuViewLayout()
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(MachineBottomViewController.handleTap(_:)))
         backdropView.addGestureRecognizer(tapGesture)
@@ -61,13 +59,44 @@ class MachineBottomViewController: BaseViewController {
         self.address.text = self.machine?.loc_street
         let gestureRec = UITapGestureRecognizer(target: self, action:  #selector (self.showItens (_:)))
         self.itens.addGestureRecognizer(gestureRec)
+        let gestureRecRoute = UITapGestureRecognizer(target: self, action:  #selector (self.showMap(_:)))
+        self.route.addGestureRecognizer(gestureRecRoute)
+    }
+    
+    func updateMenuViewLayout(){
+        menuView.translatesAutoresizingMaskIntoConstraints = false
+        menuView.heightAnchor.constraint(equalToConstant: menuHeight).isActive = true
+        menuView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        menuView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        menuView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        view.addConstraint(NSLayoutConstraint(item: menuView, attribute: .bottom, relatedBy: .equal, toItem: self.bottomLayoutGuide, attribute:.top, multiplier: 1, constant: -20))
+        view.addConstraint(NSLayoutConstraint(item: menuView, attribute: .left, relatedBy: .equal, toItem: view, attribute:.left, multiplier: 1, constant: 16))
+        view.addConstraint(NSLayoutConstraint(item: menuView, attribute: .right, relatedBy: .equal, toItem: view, attribute:.right, multiplier: 1, constant: -16))
+        
+        let maskPath = UIBezierPath(roundedRect: view.bounds,
+                                    byRoundingCorners: [.topLeft, .topRight, .bottomLeft, .bottomRight],
+                                    cornerRadii: CGSize(width: 15.0, height: 15.0)).cgPath
+        
+        menuView.layer.shadowPath = maskPath
+        menuView.layer.shadowColor = UIColor.black.cgColor
+        menuView.layer.shadowOpacity = 0.1
+        menuView.layer.shadowRadius = 0.9
+        menuView.layer.cornerRadius = 20
 
     }
+    
     
     func showItens(_ sender:UITapGestureRecognizer){
         let vc = MachineItensViewController()
         vc.machine = self.machine
         self.pushViewController(viewController: vc)
+    }
+    
+    func showMap(_ sender:UITapGestureRecognizer){
+        let coordinate = CLLocationCoordinate2DMake((machine?.loc_lat.doubleValue)!, (machine?.loc_long.doubleValue)!)
+        let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+        mapItem.name = machine?.loc_name
+        mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
     }
     
     func handleTap(_ sender: UITapGestureRecognizer) {

@@ -55,8 +55,9 @@ open class LibBaseViewController: UIViewController, CustomTaskDelegate {
      - title: Título do alerta.
      - message: Mensagem de corpo do alerta. Caso não seja definido, o valor padrão é *nil*.
      */
-    public func alert(_ title: String? = "ClickServices", withMessage message: String) {
+    public func alert(_ title: String? = "Byke Station", withMessage message: String) {
         AlertUtils.alert(title, message: message, onViewController: self)
+      
     }
     
     ///Add Tap Recognizer

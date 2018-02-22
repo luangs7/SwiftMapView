@@ -6,7 +6,7 @@ def default_pods
     pod 'FBSDKCoreKit', '~> 4.26'
     pod 'Alamofire', ‘4.3.0’
     pod 'SDWebImage'
-    pod 'ImageSlideshow'
+    pod 'ImageSlideshow’, ‘1.0’
     pod "ImageSlideshow/Kingfisher"
 #    pod 'MFCard'
     #εντροπία

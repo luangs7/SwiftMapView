@@ -16,11 +16,10 @@ import UIKit
      - parameter callback: Callback called after the image was set to the image view.
      - parameter image: Image that was set to the image view.
      */
-    func load(to imageView: UIImageView, with callback: @escaping (_ image: UIImage?) -> Void)
+    func load(to imageView: UIImageView, with callback: @escaping (_ image: UIImage) -> ())
 }
 
 /// Input Source to load plain UIImage
-@objcMembers
 open class ImageSource: NSObject, InputSource {
     var image: UIImage!
 
@@ -41,7 +40,7 @@ open class ImageSource: NSObject, InputSource {
         }
     }
 
-    public func load(to imageView: UIImageView, with callback: @escaping (UIImage?) -> Void) {
+    public func load(to imageView: UIImageView, with callback: @escaping (UIImage) -> ()) {
         imageView.image = image
         callback(image)
     }

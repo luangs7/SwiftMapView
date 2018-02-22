@@ -159,6 +159,10 @@ extension MachineItensViewController: UITableViewDelegate,UITableViewDataSource,
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
         let selectedCell:UITableViewCell = tableView.cellForRow(at: indexPath as IndexPath)!
         selectedCell.contentView.backgroundColor = UIColor.white
+        
+        let vc = MachineDetailsViewController()
+        vc.item = self.itens[indexPath.row]
+        self.pushViewController(viewController: vc)
     }
     
     func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
