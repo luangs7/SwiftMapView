@@ -63,15 +63,13 @@ class MachineRepository: BaseRequest {
         }
     }
     
-    
-    
     static func getMachineItem(idMachine:String,idItem:String, completion: @escaping (_ item: MachineItem?, _ onSuccess: Bool) -> ()){
         
         endPoint = "/machines/\(idMachine)/items/\(idItem)"
         doDefaultRequestWith(requestType: .get, completionOnSingleResult: { (json) in
             var machineItem: MachineItem?
             if let item = MachineItem(JSON: json) {
-                    machineItem = item
+                machineItem = item
                 //                session.machines = machines
                 completion(machineItem,true)
             }else {
@@ -83,5 +81,19 @@ class MachineRepository: BaseRequest {
             if !success { completion(nil,success) }
         }
     }
-
+    
+    
+    static func postRating(_ rating: Rating, completion: @escaping onSuccess) {
+        endPoint = "/rating"
+        let params = rating.toJSON() as [String: AnyObject]
+        
+        doDefaultRequestWith(requestType: .post, parameters: params, completionOnSingleResult: { (resultJson) in
+            //any handle here
+            
+        }, completionOnListResult: { (_) in
+            
+        }) { (success) in
+            completion(success)
+        }
+    }
 }

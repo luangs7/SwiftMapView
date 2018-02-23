@@ -67,17 +67,17 @@ class MachineDetailsViewController: BaseViewController {
 
     
     func initView(){
-        var kingfisherSource: [KingfisherSource] = []
+        var kingfisherSource: [AFURLSource] = []
         var photos : [String] = (self.item?.photos_item)!
 //        photos.append(self.item?.photos_item)
         photos = (self.item?.photos_item)!
         if(photos.count > 0){
             for url in photos {
-                kingfisherSource.append(KingfisherSource(urlString: url)!)
+                kingfisherSource.append(AFURLSource(urlString: url)!)
             }
         }else{
-             kingfisherSource.append(KingfisherSource(urlString: "http://via.placeholder.com/500x250")!)
-             kingfisherSource.append(KingfisherSource(urlString: "http://via.placeholder.com/450x250")!)
+             kingfisherSource.append(AFURLSource(urlString: "http://via.placeholder.com/500x250")!)
+             kingfisherSource.append(AFURLSource(urlString: "http://via.placeholder.com/450x250")!)
         }
     
         self.nameProduct.text = self.item?.name_item

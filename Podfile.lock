@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - Alamofire (4.3.0)
   - Bolts (1.8.4):
     - Bolts/AppLinks (= 1.8.4)
@@ -6,38 +21,40 @@ PODS:
   - Bolts/AppLinks (1.8.4):
     - Bolts/Tasks
   - Bolts/Tasks (1.8.4)
+  - Cosmos (8.0.2)
   - FBSDKCoreKit (4.27.1):
     - Bolts (~> 1.7)
   - FBSDKLoginKit (4.27.1):
     - FBSDKCoreKit
   - ImageSlideshow (1.0.0):
     - ImageSlideshow/Core (= 1.0.0)
-  - ImageSlideshow/Core (1.0.0)
-  - ImageSlideshow/Kingfisher (1.0.0):
+  - ImageSlideshow/AFURL (1.0.0):
+    - AFNetworking (~> 3.0)
     - ImageSlideshow/Core
-    - Kingfisher (~> 3.0)
-  - Kingfisher (3.13.1)
+  - ImageSlideshow/Core (1.0.0)
   - SDWebImage (4.2.1):
     - SDWebImage/Core (= 4.2.1)
   - SDWebImage/Core (4.2.1)
 
 DEPENDENCIES:
   - Alamofire (= 4.3.0)
+  - Cosmos (= 8.0.2)
   - FBSDKCoreKit (~> 4.26)
   - FBSDKLoginKit (~> 4.26)
   - ImageSlideshow (= 1.0)
-  - ImageSlideshow/Kingfisher
+  - ImageSlideshow/AFURL
   - SDWebImage
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Cosmos: 007c0b8e33a85e5363911bdd933571bbe221f7ef
   FBSDKCoreKit: 03365dad5d790249196ffad8be4f6d8a2d98f932
   FBSDKLoginKit: 66ff53b73cffd967ab773e32fac39e90a60e6d46
   ImageSlideshow: 2787e10e202b79ecf5348a205c539fcc5bb8e62b
-  Kingfisher: ed9707a409cc47fddafbcd12a43a9757e3600af5
   SDWebImage: 1fa4c9edf525b744f002db89f3f5a38b3cd4c541
 
-PODFILE CHECKSUM: 1f9f83ced992a10ff12b0d304296b149ade12159
+PODFILE CHECKSUM: 264dd72b03ff90f4b8123643076b68a687ee89eb
 
 COCOAPODS: 1.3.1

@@ -61,6 +61,10 @@ class MachineBottomViewController: BaseViewController {
         self.itens.addGestureRecognizer(gestureRec)
         let gestureRecRoute = UITapGestureRecognizer(target: self, action:  #selector (self.showMap(_:)))
         self.route.addGestureRecognizer(gestureRecRoute)
+        
+        self.rating.isUserInteractionEnabled = true
+        let gestureRecRating = UITapGestureRecognizer(target: self, action:  #selector (self.showRating(_:)))
+        self.rating.addGestureRecognizer(gestureRecRating)
     }
     
     func updateMenuViewLayout(){
@@ -85,6 +89,11 @@ class MachineBottomViewController: BaseViewController {
 
     }
     
+    func showRating(_ sender:UITapGestureRecognizer){
+        let vc = RatingViewController()
+        vc.machine = self.machine
+        self.pushViewController(viewController: vc)
+    }
     
     func showItens(_ sender:UITapGestureRecognizer){
         let vc = MachineItensViewController()

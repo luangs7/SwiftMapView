@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Controllers/MachineBottomViewController.swift"
-            timestampString = "541022034.804437"
+            timestampString = "541085116.672219"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "showItens(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -439,54 +439,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Repositories/MachineRepository.swift"
-            timestampString = "541018235.725898"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "getMachineItem(idMachine:idItem:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static bykestation.MachineRepository.(getMachineItem (idMachine : Swift.String, idItem : Swift.String, completion : (Swift.Optional&lt;bykestation.MachineItem&gt;, Swift.Bool) -&gt; ()) -&gt; ()).(closure #2)"
-                  moduleName = "bykestation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/bikestation.ios/bykestation/Repositories/MachineRepository.swift"
-                  timestampString = "541022308.487324"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static bykestation.MachineRepository.(getMachineItem (idMachine : Swift.String, idItem : Swift.String, completion : (Swift.Optional&lt;bykestation.MachineItem&gt;, Swift.Bool) -&gt; ()) -&gt; ()).(closure #3)"
-                  moduleName = "bykestation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/bikestation.ios/bykestation/Repositories/MachineRepository.swift"
-                  timestampString = "541022308.491255"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "83"
-                  endingLineNumber = "83"
-                  offsetFromSymbolStart = "27">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Controllers/MachineDetailsViewController.swift"
             timestampString = "541017747.514823"
             startingColumnNumber = "9223372036854775807"
@@ -519,8 +471,8 @@
                   symbolName = "bykestation.MachineDetailsViewController.fetchData () -&gt; ()"
                   moduleName = "bykestation"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/bikestation.ios/bykestation/Controllers/MachineDetailsViewController.swift"
-                  timestampString = "541022308.509348"
+                  urlString = "file:///Users/usuario/bykestation.ios/Controllers/MachineDetailsViewController.swift"
+                  timestampString = "541089338.444371"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "47"
@@ -534,76 +486,12 @@
                   symbolName = "bykestation.MachineDetailsViewController.(fetchData () -&gt; ()).(closure #1)"
                   moduleName = "bykestation"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/bikestation.ios/bykestation/Controllers/MachineDetailsViewController.swift"
-                  timestampString = "541022308.5134521"
+                  urlString = "file:///Users/usuario/bykestation.ios/Controllers/MachineDetailsViewController.swift"
+                  timestampString = "541089338.4475991"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "48"
                   endingLineNumber = "48"
-                  offsetFromSymbolStart = "31">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Repositories/MachineRepository.swift"
-            timestampString = "541018235.725898"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "getMachineItem(idMachine:idItem:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Repositories/MachineRepository.swift"
-            timestampString = "541017914.0833271"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "getMachineItem(idMachine:idItem:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static bykestation.MachineRepository.getMachineItem (idMachine : Swift.String, idItem : Swift.String, completion : (Swift.Optional&lt;bykestation.MachineItem&gt;, Swift.Bool) -&gt; ()) -&gt; ()"
-                  moduleName = "bykestation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/bikestation.ios/bykestation/Repositories/MachineRepository.swift"
-                  timestampString = "541022308.532109"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "71"
-                  endingLineNumber = "71"
-                  offsetFromSymbolStart = "448">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static bykestation.MachineRepository.(getMachineItem (idMachine : Swift.String, idItem : Swift.String, completion : (Swift.Optional&lt;bykestation.MachineItem&gt;, Swift.Bool) -&gt; ()) -&gt; ()).(closure #1)"
-                  moduleName = "bykestation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/usuario/bikestation.ios/bykestation/Repositories/MachineRepository.swift"
-                  timestampString = "541022308.5367399"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
                   offsetFromSymbolStart = "31">
                </Location>
             </Locations>
@@ -623,6 +511,212 @@
             endingLineNumber = "101"
             landmarkName = "initView()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Controllers/MachineItensViewController.swift"
+            timestampString = "541084728.899323"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "tableView(tableView:didDeselectRowAtIndexPath:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Controllers/MachineBottomViewController.swift"
+            timestampString = "541085116.672219"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "showRating(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Controllers/MachineBottomViewController.swift"
+            timestampString = "541084906.751242"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "MachineBottomViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bykestation.MachineBottomViewController.rating.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "bykestation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/bykestation.ios/Controllers/MachineBottomViewController.swift"
+                  timestampString = "541084907.188558"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bykestation.MachineBottomViewController.rating.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "bykestation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/bykestation.ios/Controllers/MachineBottomViewController.swift"
+                  timestampString = "541084907.191566"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bykestation.MachineBottomViewController.init () -&gt; bykestation.MachineBottomViewController"
+                  moduleName = "bykestation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/bykestation.ios/Controllers/MachineBottomViewController.swift"
+                  timestampString = "541084907.194483"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "266">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bykestation.MachineBottomViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;bykestation.MachineBottomViewController&gt;"
+                  moduleName = "bykestation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/bykestation.ios/Controllers/MachineBottomViewController.swift"
+                  timestampString = "541084907.1978689"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Controllers/RatingViewController.swift"
+            timestampString = "541088938.7776541"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "RatingViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Controllers/RatingViewController.swift"
+            timestampString = "541088991.5356539"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "setdata(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Repositories/MachineRepository.swift"
+            timestampString = "541088998.7008981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "postRating(_:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Repositories/MachineRepository.swift"
+            timestampString = "541089028.276999"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "postRating(_:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static bykestation.MachineRepository.postRating (bykestation.Rating, completion : (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "bykestation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/bykestation.ios/Repositories/MachineRepository.swift"
+                  timestampString = "541089338.473785"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "223">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static bykestation.MachineRepository.(postRating (bykestation.Rating, completion : (Swift.Bool) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "bykestation"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/usuario/bykestation.ios/Repositories/MachineRepository.swift"
+                  timestampString = "541089338.476106"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

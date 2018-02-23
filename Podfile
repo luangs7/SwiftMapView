@@ -7,8 +7,9 @@ def default_pods
     pod 'Alamofire', ‘4.3.0’
     pod 'SDWebImage'
     pod 'ImageSlideshow’, ‘1.0’
-    pod "ImageSlideshow/Kingfisher"
+pod "ImageSlideshow/AFURL"
 #    pod 'MFCard'
+pod 'Cosmos', ‘8.0.2’
     #εντροπία
 end
 

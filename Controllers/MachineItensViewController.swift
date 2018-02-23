@@ -165,7 +165,7 @@ extension MachineItensViewController: UITableViewDelegate,UITableViewDataSource,
         self.pushViewController(viewController: vc)
     }
     
-    func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
+    func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: IndexPath) {
         let deselectedCell:UITableViewCell = tableView.cellForRow(at: indexPath as IndexPath)!
         deselectedCell.contentView.backgroundColor = UIColor.white
 

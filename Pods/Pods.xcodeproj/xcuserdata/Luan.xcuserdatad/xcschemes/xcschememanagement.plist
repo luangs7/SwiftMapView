@@ -4,12 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Cosmos.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -34,11 +44,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Kingfisher.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-bykestation.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,22 +57,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>177DDC8EE20A51E9535307ACCE272230</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>44CAD6CE523055ED339E87154473A254</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>52DBFB36AC9F525C68B5C650208D84C8</key>
+		<key>4FDC533A4360A68ABDCE852F04B30927</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DDACE28F1AF34026A17C3B3171C69F0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7D459D0548608C43B84AF615D54CEBA7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>94CDCE75F6653305B3F663802AEAFFA5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,17 +97,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C0D8D185036014A5380851EA9E3BF4BF</key>
+		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DC057848DB0A9339AD6BF07CBFD1ABC9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E83D72EE0336E9831509503ECD4154EA</key>
+		<key>D3E1D7E11F6BF3B62AD713198121EC5D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
