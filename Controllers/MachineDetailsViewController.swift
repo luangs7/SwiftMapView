@@ -100,9 +100,10 @@ class MachineDetailsViewController: BaseViewController {
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(MachineDetailsViewController.didTap))
         slider.addGestureRecognizer(recognizer)
 
-//        slider.sd_setIndicatorStyle(UIActivityIndicatorViewStyle)
 
     }
+    
+    
     
     func didTap() {
         let fullScreenController = slider.presentFullScreenController(from: self)
