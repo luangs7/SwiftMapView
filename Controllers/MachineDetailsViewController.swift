@@ -68,9 +68,9 @@ class MachineDetailsViewController: BaseViewController {
     
     func initView(){
         var kingfisherSource: [AFURLSource] = []
-        var photos : [String] = (self.item?.photos_item)!
+        var photos : [String] = (self.item?.images)!
 //        photos.append(self.item?.photos_item)
-        photos = (self.item?.photos_item)!
+        photos = (self.item?.images)!
         if(photos.count > 0){
             for url in photos {
                 kingfisherSource.append(AFURLSource(urlString: url)!)
@@ -94,7 +94,8 @@ class MachineDetailsViewController: BaseViewController {
         slider.pageControlPosition = PageControlPosition.underScrollView
         slider.pageControl.currentPageIndicatorTintColor = UIColor.lightGray
         slider.pageControl.pageIndicatorTintColor = UIColor.black
-        slider.contentScaleMode = UIViewContentMode.scaleAspectFill
+        slider.contentScaleMode = UIViewContentMode.scaleAspectFit
+
         slider.setImageInputs(kingfisherSource)
         
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(MachineDetailsViewController.didTap))

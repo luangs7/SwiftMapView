@@ -82,6 +82,7 @@ class MachineItensViewController: BaseViewController {
             MachineRepository.getMachinesItens(idMachine: (machine?.id_machine)!,completion: { (machines,success) in
                 if !success {
                     self.alert(withMessage: "Não foram encontrados itens!")
+                    self.removeBlur(blurView: self.blurView)
                     return
                 }
                 
