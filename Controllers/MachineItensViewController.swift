@@ -44,6 +44,8 @@ class MachineItensViewController: BaseViewController {
         
         self.nameMachine.text = machine?.loc_name
         self.addressMachine.text = machine?.loc_street
+        tableView.separatorStyle = UITableViewCellSeparatorStyle.singleLine
+        tableView.separatorColor = UIColor.gray
 //        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
 
         setupTableView()

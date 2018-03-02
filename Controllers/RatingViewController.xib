@@ -39,7 +39,7 @@
                         <userDefinedRuntimeAttribute type="number" keyPath="starSize">
                             <real key="value" value="30"/>
                         </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="string" keyPath="text" value="Localizacao"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="text" value="Localização"/>
                         <userDefinedRuntimeAttribute type="number" keyPath="textSize">
                             <real key="value" value="20"/>
                         </userDefinedRuntimeAttribute>
@@ -66,7 +66,7 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avalie a maquina nos critérios abaixo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyj-Zk-0fc">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avalie a máquina nos critérios abaixo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyj-Zk-0fc">
                     <rect key="frame" x="16" y="98" width="288" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
@@ -136,7 +136,7 @@ produtos</string>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="iKC-eQ-Hb8"/>
                     </constraints>
-                    <state key="normal" title="AVALIAR">
+                    <state key="normal" title="AVALIAR!">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>

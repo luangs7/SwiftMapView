@@ -19,6 +19,10 @@ class MachineDetailsViewController: BaseViewController {
     var item:MachineItem?
     let blurView = UIView()
     
+    enum MyError: Error {
+        case FoundNil(String)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = item?.name_item
@@ -70,15 +74,19 @@ class MachineDetailsViewController: BaseViewController {
         var kingfisherSource: [AFURLSource] = []
         var photos : [String] = (self.item?.images)!
 //        photos.append(self.item?.photos_item)
-        photos = (self.item?.images)!
-        if(photos.count > 0){
-            for url in photos {
-                kingfisherSource.append(AFURLSource(urlString: url)!)
+            if(photos.count > 0){
+                for url in photos {
+                    if let imageSource = AFURLSource(urlString: url){
+                        kingfisherSource.append(imageSource)
+                    }else{
+                        kingfisherSource.append(AFURLSource(urlString: "http://via.placeholder.com/500x250")!)
+                    }
+                }
+            }else{
+                kingfisherSource.append(AFURLSource(urlString: "http://via.placeholder.com/500x250")!)
+                kingfisherSource.append(AFURLSource(urlString: "http://via.placeholder.com/450x250")!)
             }
-        }else{
-             kingfisherSource.append(AFURLSource(urlString: "http://via.placeholder.com/500x250")!)
-             kingfisherSource.append(AFURLSource(urlString: "http://via.placeholder.com/450x250")!)
-        }
+        
     
         self.nameProduct.text = self.item?.name_item
         self.price.text = self.item?.price_item

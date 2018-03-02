@@ -58,7 +58,7 @@ class RatingViewController: BaseViewController{
             if success {
                 self?.removeBlur(blurView: (self?.blueView)!)
 
-                let alertController = UIAlertController(title: "Obrigado!", message: "Maquina avaliada com successo.", preferredStyle: .alert)
+                let alertController = UIAlertController(title: "Obrigado!", message: "Sua avaliação foi salva com sucesso.", preferredStyle: .alert)
                 
                 alertController.addAction(UIAlertAction(title: "Ok", style: .default, handler: {
                     alert -> Void in

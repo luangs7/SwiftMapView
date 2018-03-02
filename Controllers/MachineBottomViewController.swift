@@ -109,7 +109,9 @@ class MachineBottomViewController: BaseViewController {
     }
     
     func handleTap(_ sender: UITapGestureRecognizer) {
-        dismiss(animated: true, completion: nil)
+//        let vc = MapViewController()
+        dismiss(animated: true, completion:nil)
+//        vc.checkLocationAuthorizationStatus()
     }
     
     func instanceFromNib() -> UIView {

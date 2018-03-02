@@ -81,7 +81,7 @@ class MapViewController: BaseViewController {
         mapView = nil
     }
 
-    private func checkLocationAuthorizationStatus() {
+    public func checkLocationAuthorizationStatus() {
         let authStatus = CLLocationManager.authorizationStatus()
         
         if (authStatus == .authorizedWhenInUse || authStatus == .authorizedAlways){
