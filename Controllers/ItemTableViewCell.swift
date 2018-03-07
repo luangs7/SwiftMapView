@@ -17,7 +17,7 @@ class ItemTableViewCell: UITableViewCell {
     @IBOutlet weak var nameItem: UILabel!
     @IBOutlet weak var content: UIView!
     @IBOutlet weak var imgView: UIImageView!
-    @IBOutlet weak var shadowView: UIView!
+    @IBOutlet weak var backgroundCard: UIView!
     
     
     override func awakeFromNib() {
@@ -41,8 +41,17 @@ class ItemTableViewCell: UITableViewCell {
             self.imgView.sd_setImage(with: URL(string: ("http://via.placeholder.com/150x150")))
         }else{
             self.imgView.sd_setImage(with: URL(string: (item.images[0])))
-            self.imgView.contentMode = UIViewContentMode.scaleAspectFit
         }
+        
+        backgroundCard.backgroundColor = UIColor.white
+        content.backgroundColor = UIColor(red:240/255.0, green:240/255.0, blue:240/255.0, alpha: 1.0)
+        
+        backgroundCard.layer.cornerRadius = 3.0
+        backgroundCard.layer.masksToBounds = false
+        backgroundCard.layer.shadowColor = UIColor.black.withAlphaComponent(0.2).cgColor
+        
+        backgroundCard.layer.shadowOffset = CGSize(width: 0, height: 0)
+        backgroundCard.layer.shadowOpacity = 0.8
     }
     
     override func layoutSubviews() {

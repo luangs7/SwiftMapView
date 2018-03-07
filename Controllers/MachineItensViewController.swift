@@ -44,9 +44,9 @@ class MachineItensViewController: BaseViewController {
         
         self.nameMachine.text = machine?.loc_name
         self.addressMachine.text = machine?.loc_street
-        tableView.separatorStyle = UITableViewCellSeparatorStyle.singleLine
-        tableView.separatorColor = UIColor.gray
-//        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
+//        tableView.separatorStyle = UITableViewCellSeparatorStyle.singleLine
+//        tableView.separatorColor = UIColor.gray
+        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
 
         setupTableView()
         mapView.delegate = self
@@ -114,7 +114,7 @@ class MachineItensViewController: BaseViewController {
     private func setupTableView() {
         tableView.dataSource = self
         self.tableView.delegate = self
-        tableView.rowHeight = 145
+        tableView.rowHeight = 165
         
         tableView.register(UINib.init(nibName: "ItemTableViewCell", bundle: nil), forCellReuseIdentifier: "ItemTableViewCell")
     }

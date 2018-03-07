@@ -89,7 +89,7 @@ class MachineDetailsViewController: BaseViewController {
         
     
         self.nameProduct.text = self.item?.name_item
-        self.price.text = self.item?.price_item
+        self.price.text = "R$ " + (self.item?.price_item)!
         self.stock.text = self.item?.stock_item
         self.canaleta.text = self.item?.raceway_item
         if(self.item?.descp_item != nil){

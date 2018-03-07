@@ -72,6 +72,8 @@ class MapViewController: BaseViewController {
         applyMapViewMemoryHotFix()
     }
     
+    
+    
     deinit {
         print("### -> DEINIT MAPVIEW <- ###")
         //deinit mapView due to memory consumed
